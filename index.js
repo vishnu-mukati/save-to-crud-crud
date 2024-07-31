@@ -7,7 +7,7 @@ function savetocrudcrud(event) {
 
 
   let obj = {
-    name,
+    name ,
     email,
     phonenumber,
   };
@@ -27,7 +27,6 @@ function savetocrudcrud(event) {
     });
 }
 
-//   localStorage.setItem(obj.email,JSON.stringify(obj))
 
 document.addEventListener("DOMContentLoaded", () => {
   axios
